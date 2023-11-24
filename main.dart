@@ -20,3 +20,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// 이렇게 따로 home: HomePage()로 불러와도 되고, 그냥 main.dart 아래에 바로 class HomePage extends StatelessWidget{ } 으로 쭉 이어서 하나로 만들어도 됨
